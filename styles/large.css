@@ -1,0 +1,190 @@
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 1fr;
+    /* grid-template-rows: 2fr 1fr; */
+    /* max-height: 150px; */
+    background-color: #EE6055;
+}
+header nav ul {
+    /* width: 300px;
+    height: 55px; */
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+  }
+  
+header nav ul li {
+    /* display: inline-block; */
+    flex: 1 1 auto;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    margin: auto;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    display: block;
+  }
+  header nav ul li:hover {
+    background-color: white;
+    color: black
+  }
+  header img{
+    max-width: 100px;
+  }
+  #hambutton{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    display: none;
+  }
+  #title p {
+    margin: 10px;
+    font-family: 'Roboto', serif;
+  }
+  #socials img{
+    max-width: 25px;
+    justify-self: center;
+  }
+  #date {
+    text-align: center;
+    grid-column: 1/5;
+    font-size: 24px;
+    margin: 5px;
+  }
+  #title {
+    font-size: 24px;
+  }
+  footer {
+    background-color: #EE6055;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+
+
+  }
+  footer img {
+    margin: 5px;
+    max-width: 150px;
+    margin-left: 20px;
+  }
+  #foottitle {
+    font-size: 24px;
+    grid-column: 2/4;
+  }
+  #foottitle p {
+    margin: 10px;
+    font-family: 'Roboto', serif;
+  }
+  #info {
+    grid-column: 4/5;
+    font-size: 20px;
+    text-align: center;
+  }
+  #subfooter {
+    grid-column: 1/5;
+    border-top: 1px solid;
+    margin: auto;
+  }
+  #subfooter li {
+    display: inline;
+    font-size: 17px;
+    text-align: center;
+  }
+  .hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/orchard.webp);
+    /* height: 250px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    grid-column: 2/4;
+    grid-row: 1/3;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+  }
+
+.box {
+  background-color: #60D394;
+  text-align: center;
+
+  /* border: black 1px solid; */
+}
+.box h2{
+  text-shadow: #EE6055 1px 1px;
+}
+.box h3 {
+  text-shadow: white 1px 1px;
+}
+.box img {
+  max-width: 95%;
+  margin-top: 10px;
+}
+.box img:hover {
+  border: #EE6055 2px solid;
+}
+#news {
+  grid-column: 2/4;
+}
+/* #join {
+ background-color: green; 
+} */
+#banner p{
+  margin: 0px;
+  text-align: center;
+ 
+}
+#banner {
+  display: none;
+}
+#banner.open{
+  display: block;
+}
+#temp {
+  display: flex;
+  justify-content: center;
+}
+#temp p {
+  font-size: 30px;
+}
+#answers{
+  display: flex;
+  flex-direction: column;
+  background-color: #60D394;
+  padding: 5%;
+}
+#desc {
+  min-height: 4em;
+}
+#answers input {
+  max-width: 200px;
+  border-radius: 8px;
+}
+#answers select {
+  max-width: 150px;
+}
+#thanks {
+  background-color: #60D394;
+}
+#thanks h1 {
+  margin: auto;
+}

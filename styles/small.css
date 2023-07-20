@@ -1,0 +1,61 @@
+@media (max-width: 25.5em) {
+    #title p {
+        font-size: 12px;
+    }
+    #date {
+        font-size: 12px;
+        margin: 3px;
+    }
+    header nav ul li {
+        font-size: 12px;
+    }
+    #foottitle p{
+        font-size: 9px;
+        margin: auto;
+    }
+    #info p {
+        font-size: 7px;
+        margin: auto;
+    }
+    footer img {
+        max-width: 50px;
+    }
+    
+    #subfooter li {
+        font-size: 6px;
+        margin: auto;
+    }
+    main {
+        grid-template-columns: 1fr;
+        /* grid-auto-flow: column; */
+    }
+    #event {
+        grid-row: 2/3;
+    }
+    #weather {
+        grid-row: 3/4;
+    }
+    #news {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    #b1 {
+        grid-row: 5/6;
+    }
+    #b2 {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+    #hero-image {
+        grid-column: 1/2;
+    }
+    .box img:hover {
+        border: none;
+      }
+      #thanks h1 {
+        font-size: 24px;
+      }
+      #thanks h2 {
+        font-size: 18px;
+      }
+}
