@@ -130,19 +130,28 @@ header nav ul li {
   /* border: black 1px solid; */
 }
 .box h2{
-  text-shadow: #EE6055 1px 1px;
+  color: white;
+  text-shadow: black 1px 1px;
 }
 .box h3 {
-  text-shadow: white 1px 1px;
+  color: white;
+  text-shadow: black 1px 1px;
 }
 .box img {
   max-width: 95%;
   margin-top: 10px;
+  max-height: 400px;
 }
-.box img:hover {
+/* .box img:hover {
   border: #EE6055 2px solid;
-}
+} */
 #news {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url(../images/oranges.webp);
+    /* height: 250px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   grid-column: 2/4;
 }
 /* #join {
